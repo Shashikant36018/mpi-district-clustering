@@ -1,0 +1,857 @@
+{
+ "n_extracted": 704,
+ "n_states": 36,
+ "missing": {
+  "Headcount_NFHS4": 69,
+  "Intensity_NFHS4": 70,
+  "MPI_NFHS4": 69,
+  "Headcount_NFHS5": 2,
+  "Intensity_NFHS5": 3,
+  "MPI_NFHS5": 2
+ },
+ "n": 631,
+ "n_excluded_nfhs4": 70,
+ "desc": {
+  "Headcount_NFHS4": {
+   "mean": 24.805,
+   "std": 16.715,
+   "min": 0.08,
+   "median": 23.54,
+   "max": 74.35
+  },
+  "Intensity_NFHS4": {
+   "mean": 44.642,
+   "std": 3.805,
+   "min": 35.71,
+   "median": 44.52,
+   "max": 57.27
+  },
+  "MPI_NFHS4": {
+   "mean": 0.116,
+   "std": 0.086,
+   "min": 0.0,
+   "median": 0.103,
+   "max": 0.412
+  },
+  "Headcount_NFHS5": {
+   "mean": 14.251,
+   "std": 11.108,
+   "min": 0.03,
+   "median": 12.28,
+   "max": 54.44
+  },
+  "Intensity_NFHS5": {
+   "mean": 42.255,
+   "std": 3.104,
+   "min": 33.33,
+   "median": 42.2,
+   "max": 52.79
+  },
+  "MPI_NFHS5": {
+   "mean": 0.063,
+   "std": 0.053,
+   "min": 0.0,
+   "median": 0.051,
+   "max": 0.285
+  },
+  "dH": {
+   "mean": -10.554,
+   "std": 7.633,
+   "min": -33.08,
+   "median": -9.97,
+   "max": 12.89
+  }
+ },
+ "improved_share": 0.9603803486529319,
+ "n_worse": 25,
+ "corr": {
+  "Headcount_NFHS4": {
+   "Headcount_NFHS4": 1.0,
+   "Intensity_NFHS4": 0.816,
+   "MPI_NFHS4": 0.994,
+   "Headcount_NFHS5": 0.928,
+   "Intensity_NFHS5": 0.7,
+   "MPI_NFHS5": 0.914
+  },
+  "Intensity_NFHS4": {
+   "Headcount_NFHS4": 0.816,
+   "Intensity_NFHS4": 1.0,
+   "MPI_NFHS4": 0.845,
+   "Headcount_NFHS5": 0.772,
+   "Intensity_NFHS5": 0.758,
+   "MPI_NFHS5": 0.775
+  },
+  "MPI_NFHS4": {
+   "Headcount_NFHS4": 0.994,
+   "Intensity_NFHS4": 0.845,
+   "MPI_NFHS4": 1.0,
+   "Headcount_NFHS5": 0.932,
+   "Intensity_NFHS5": 0.718,
+   "MPI_NFHS5": 0.924
+  },
+  "Headcount_NFHS5": {
+   "Headcount_NFHS4": 0.928,
+   "Intensity_NFHS4": 0.772,
+   "MPI_NFHS4": 0.932,
+   "Headcount_NFHS5": 1.0,
+   "Intensity_NFHS5": 0.748,
+   "MPI_NFHS5": 0.996
+  },
+  "Intensity_NFHS5": {
+   "Headcount_NFHS4": 0.7,
+   "Intensity_NFHS4": 0.758,
+   "MPI_NFHS4": 0.718,
+   "Headcount_NFHS5": 0.748,
+   "Intensity_NFHS5": 1.0,
+   "MPI_NFHS5": 0.769
+  },
+  "MPI_NFHS5": {
+   "Headcount_NFHS4": 0.914,
+   "Intensity_NFHS4": 0.775,
+   "MPI_NFHS4": 0.924,
+   "Headcount_NFHS5": 0.996,
+   "Intensity_NFHS5": 0.769,
+   "MPI_NFHS5": 1.0
+  }
+ },
+ "pca_ev": [
+  0.841,
+  0.0867,
+  0.0573,
+  0.015
+ ],
+ "pca_load": {
+  "PC1": {
+   "Headcount_NFHS4": 0.514,
+   "Intensity_NFHS4": 0.497,
+   "Headcount_NFHS5": 0.514,
+   "Intensity_NFHS5": 0.474
+  },
+  "PC2": {
+   "Headcount_NFHS4": -0.486,
+   "Intensity_NFHS4": 0.149,
+   "Headcount_NFHS5": -0.374,
+   "Intensity_NFHS5": 0.776
+  }
+ },
+ "sel": [
+  {
+   "k": 2,
+   "SSE": 1120.828,
+   "Sil": 0.4589,
+   "DB": 0.7912,
+   "CH": 787.4493
+  },
+  {
+   "k": 3,
+   "SSE": 744.434,
+   "Sil": 0.3949,
+   "DB": 0.8499,
+   "CH": 750.6156
+  },
+  {
+   "k": 4,
+   "SSE": 586.5937,
+   "Sil": 0.3278,
+   "DB": 0.9752,
+   "CH": 690.2869
+  },
+  {
+   "k": 5,
+   "SSE": 507.2029,
+   "Sil": 0.3001,
+   "DB": 1.0587,
+   "CH": 622.3094
+  },
+  {
+   "k": 6,
+   "SSE": 455.6827,
+   "Sil": 0.2795,
+   "DB": 1.1051,
+   "CH": 567.3678
+  },
+  {
+   "k": 7,
+   "SSE": 409.6253,
+   "Sil": 0.2583,
+   "DB": 1.1444,
+   "CH": 536.8198
+  },
+  {
+   "k": 8,
+   "SSE": 378.0441,
+   "Sil": 0.2754,
+   "DB": 1.1195,
+   "CH": 505.2057
+  }
+ ],
+ "stab": {
+  "2": [
+   0.9126646905097873,
+   0.05618067868189633
+  ],
+  "3": [
+   0.8990457505676365,
+   0.08330387374935005
+  ],
+  "4": [
+   0.8553161186749901,
+   0.12976018644417844
+  ],
+  "5": [
+   0.7476718849483786,
+   0.131810782829853
+  ]
+ },
+ "methods": {
+  "k-means": {
+   "Sil": 0.3949,
+   "DB": 0.8499,
+   "CH": 750.6156,
+   "ARI": 1.0
+  },
+  "Ward": {
+   "Sil": 0.3894,
+   "DB": 0.8205,
+   "CH": 663.7477,
+   "ARI": 0.545
+  },
+  "Average linkage": {
+   "Sil": 0.3624,
+   "DB": 0.5977,
+   "CH": 140.3674,
+   "ARI": 0.1086
+  },
+  "Complete linkage": {
+   "Sil": 0.3298,
+   "DB": 0.8784,
+   "CH": 632.2624,
+   "ARI": 0.4114
+  },
+  "Gaussian mixture": {
+   "Sil": 0.2853,
+   "DB": 1.0063,
+   "CH": 512.3834,
+   "ARI": 0.4898
+  },
+  "k-means (cosine)": {
+   "Sil": 0.4744,
+   "DB": null,
+   "CH": null,
+   "ARI": 0.419
+  }
+ },
+ "cluster_sizes": [
+  109,
+  266,
+  256
+ ],
+ "prof": {
+  "0": {
+   "n": 109,
+   "H4": 50.577,
+   "H5": 32.554,
+   "H5sd": 8.248,
+   "A4": 50.052,
+   "A5": 46.335,
+   "MPI5": 0.152,
+   "dH": -18.023,
+   "rel": -35.635
+  },
+  "1": {
+   "n": 266,
+   "H4": 29.008,
+   "H5": 15.845,
+   "H5sd": 5.51,
+   "A4": 45.559,
+   "A5": 43.022,
+   "MPI5": 0.068,
+   "dH": -13.163,
+   "rel": -45.378
+  },
+  "2": {
+   "n": 256,
+   "H4": 9.466,
+   "H5": 4.802,
+   "H5sd": 2.997,
+   "A4": 41.387,
+   "A5": 39.721,
+   "MPI5": 0.019,
+   "dH": -4.663,
+   "rel": -49.265
+  }
+ },
+ "sil_by_cluster": {
+  "0": 0.37053255032871024,
+  "1": 0.3541415335724132,
+  "2": 0.4476003311571414
+ },
+ "sil_neg_share": 0.011093502377179081,
+ "conv": {
+  "r": -0.8397182460854664,
+  "slope": -0.3834844996637969,
+  "intercept": -1.0416895366993375,
+  "r2": 0.705126732808852
+ },
+ "state_tab": {
+  "Andaman & Nicobar Islands": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 3.0,
+   "n": 3.0,
+   "H5": 2.98
+  },
+  "Andhra Pradesh": {
+   "High": 0.0,
+   "Medium": 3.0,
+   "Low": 10.0,
+   "n": 13.0,
+   "H5": 6.078461538461538
+  },
+  "Arunachal Pradesh": {
+   "High": 0.0,
+   "Medium": 11.0,
+   "Low": 5.0,
+   "n": 16.0,
+   "H5": 11.924375
+  },
+  "Assam": {
+   "High": 5.0,
+   "Medium": 22.0,
+   "Low": 0.0,
+   "n": 27.0,
+   "H5": 18.20148148148148
+  },
+  "Bihar": {
+   "High": 20.0,
+   "Medium": 14.0,
+   "Low": 0.0,
+   "n": 34.0,
+   "H5": 26.78441176470588
+  },
+  "Chandigarh": {
+   "High": 0.0,
+   "Medium": 1.0,
+   "Low": 0.0,
+   "n": 1.0,
+   "H5": 3.52
+  },
+  "Chhattisgarh": {
+   "High": 5.0,
+   "Medium": 8.0,
+   "Low": 5.0,
+   "n": 18.0,
+   "H5": 19.72277777777778
+  },
+  "Dadra & Nagar Haveli & Daman & Diu": {
+   "High": 0.0,
+   "Medium": 2.0,
+   "Low": 1.0,
+   "n": 3.0,
+   "H5": 6.326666666666667
+  },
+  "Delhi": {
+   "High": 0.0,
+   "Medium": 1.0,
+   "Low": 8.0,
+   "n": 9.0,
+   "H5": 3.657777777777778
+  },
+  "Goa": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 2.0,
+   "n": 2.0,
+   "H5": 0.84
+  },
+  "Gujarat": {
+   "High": 2.0,
+   "Medium": 16.0,
+   "Low": 7.0,
+   "n": 25.0,
+   "H5": 12.886
+  },
+  "Haryana": {
+   "High": 1.0,
+   "Medium": 1.0,
+   "Low": 19.0,
+   "n": 21.0,
+   "H5": 7.075238095238096
+  },
+  "Himachal Pradesh": {
+   "High": 0.0,
+   "Medium": 1.0,
+   "Low": 11.0,
+   "n": 12.0,
+   "H5": 5.425833333333333
+  },
+  "Jammu & Kashmir": {
+   "High": 0.0,
+   "Medium": 10.0,
+   "Low": 10.0,
+   "n": 20.0,
+   "H5": 5.634
+  },
+  "Jharkhand": {
+   "High": 15.0,
+   "Medium": 9.0,
+   "Low": 0.0,
+   "n": 24.0,
+   "H5": 30.862083333333334
+  },
+  "Karnataka": {
+   "High": 1.0,
+   "Medium": 6.0,
+   "Low": 23.0,
+   "n": 30.0,
+   "H5": 7.808333333333334
+  },
+  "Kerala": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 12.0,
+   "n": 12.0,
+   "H5": 0.8033333333333333
+  },
+  "Ladakh": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 2.0,
+   "n": 2.0,
+   "H5": 3.5250000000000004
+  },
+  "Lakshadweep": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 1.0,
+   "n": 1.0,
+   "H5": 1.11
+  },
+  "Madhya Pradesh": {
+   "High": 16.0,
+   "Medium": 33.0,
+   "Low": 1.0,
+   "n": 50.0,
+   "H5": 21.511799999999997
+  },
+  "Maharashtra": {
+   "High": 2.0,
+   "Medium": 9.0,
+   "Low": 24.0,
+   "n": 35.0,
+   "H5": 8.912285714285714
+  },
+  "Manipur": {
+   "High": 0.0,
+   "Medium": 5.0,
+   "Low": 4.0,
+   "n": 9.0,
+   "H5": 11.526666666666667
+  },
+  "Meghalaya": {
+   "High": 3.0,
+   "Medium": 3.0,
+   "Low": 1.0,
+   "n": 7.0,
+   "H5": 26.395714285714284
+  },
+  "Mizoram": {
+   "High": 1.0,
+   "Medium": 2.0,
+   "Low": 5.0,
+   "n": 8.0,
+   "H5": 6.7375
+  },
+  "Nagaland": {
+   "High": 1.0,
+   "Medium": 7.0,
+   "Low": 3.0,
+   "n": 11.0,
+   "H5": 17.74909090909091
+  },
+  "Odisha": {
+   "High": 8.0,
+   "Medium": 14.0,
+   "Low": 8.0,
+   "n": 30.0,
+   "H5": 16.819666666666667
+  },
+  "Puducherry": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 4.0,
+   "n": 4.0,
+   "H5": 1.68
+  },
+  "Punjab": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 20.0,
+   "n": 20.0,
+   "H5": 4.8545
+  },
+  "Rajasthan": {
+   "High": 6.0,
+   "Medium": 22.0,
+   "Low": 5.0,
+   "n": 33.0,
+   "H5": 16.412727272727274
+  },
+  "Sikkim": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 4.0,
+   "n": 4.0,
+   "H5": 3.24
+  },
+  "Tamil Nadu": {
+   "High": 0.0,
+   "Medium": 0.0,
+   "Low": 32.0,
+   "n": 32.0,
+   "H5": 2.3465625
+  },
+  "Telangana": {
+   "High": 0.0,
+   "Medium": 2.0,
+   "Low": 7.0,
+   "n": 9.0,
+   "H5": 6.337777777777777
+  },
+  "Tripura": {
+   "High": 0.0,
+   "Medium": 3.0,
+   "Low": 1.0,
+   "n": 4.0,
+   "H5": 14.4075
+  },
+  "Uttar Pradesh": {
+   "High": 21.0,
+   "Medium": 48.0,
+   "Low": 2.0,
+   "n": 71.0,
+   "H5": 23.137887323943662
+  },
+  "Uttarakhand": {
+   "High": 0.0,
+   "Medium": 4.0,
+   "Low": 9.0,
+   "n": 13.0,
+   "H5": 8.618461538461538
+  },
+  "West Bengal": {
+   "High": 2.0,
+   "Medium": 9.0,
+   "Low": 7.0,
+   "n": 18.0,
+   "H5": 12.526666666666666
+  }
+ },
+ "top10": [
+  {
+   "District": "Bahraich",
+   "State": "Uttar Pradesh",
+   "Headcount_NFHS4": 71.85,
+   "Headcount_NFHS5": 54.44,
+   "Intensity_NFHS5": 52.42
+  },
+  {
+   "District": "West Khasi Hills",
+   "State": "Meghalaya",
+   "Headcount_NFHS4": 39.59,
+   "Headcount_NFHS5": 52.48,
+   "Intensity_NFHS5": 48.07
+  },
+  {
+   "District": "Purnia",
+   "State": "Bihar",
+   "Headcount_NFHS4": 63.31,
+   "Headcount_NFHS5": 50.7,
+   "Intensity_NFHS5": 51.71
+  },
+  {
+   "District": "Pakur",
+   "State": "Jharkhand",
+   "Headcount_NFHS4": 60.66,
+   "Headcount_NFHS5": 49.87,
+   "Intensity_NFHS5": 49.02
+  },
+  {
+   "District": "Bijapur",
+   "State": "Chhattisgarh",
+   "Headcount_NFHS4": 41.2,
+   "Headcount_NFHS5": 49.72,
+   "Intensity_NFHS5": 52.79
+  },
+  {
+   "District": "Jhabua",
+   "State": "Madhya Pradesh",
+   "Headcount_NFHS4": 68.86,
+   "Headcount_NFHS5": 49.62,
+   "Intensity_NFHS5": 48.91
+  },
+  {
+   "District": "Shravasti",
+   "State": "Uttar Pradesh",
+   "Headcount_NFHS4": 74.35,
+   "Headcount_NFHS5": 49.62,
+   "Intensity_NFHS5": 50.18
+  },
+  {
+   "District": "Sahebganj",
+   "State": "Jharkhand",
+   "Headcount_NFHS4": 55.72,
+   "Headcount_NFHS5": 48.45,
+   "Intensity_NFHS5": 50.2
+  },
+  {
+   "District": "Pashchimi Singhbhum",
+   "State": "Jharkhand",
+   "Headcount_NFHS4": 57.6,
+   "Headcount_NFHS5": 47.81,
+   "Intensity_NFHS5": 50.42
+  },
+  {
+   "District": "Madhepura",
+   "State": "Bihar",
+   "Headcount_NFHS4": 64.43,
+   "Headcount_NFHS5": 45.78,
+   "Intensity_NFHS5": 49.38
+  }
+ ],
+ "low5_prog": [
+  {
+   "District": "West Khasi Hills",
+   "State": "Meghalaya",
+   "Headcount_NFHS4": 39.59,
+   "Headcount_NFHS5": 52.48,
+   "dH": 12.89
+  },
+  {
+   "District": "Bijapur",
+   "State": "Chhattisgarh",
+   "Headcount_NFHS4": 41.2,
+   "Headcount_NFHS5": 49.72,
+   "dH": 8.52
+  },
+  {
+   "District": "East Jaintia Hills",
+   "State": "Meghalaya",
+   "Headcount_NFHS4": 46.07,
+   "Headcount_NFHS5": 43.79,
+   "dH": -2.28
+  },
+  {
+   "District": "Banda",
+   "State": "Uttar Pradesh",
+   "Headcount_NFHS4": 40.18,
+   "Headcount_NFHS5": 33.8,
+   "dH": -6.38
+  },
+  {
+   "District": "Sahebganj",
+   "State": "Jharkhand",
+   "Headcount_NFHS4": 55.72,
+   "Headcount_NFHS5": 48.45,
+   "dH": -7.27
+  },
+  {
+   "District": "Lawngtlai",
+   "State": "Mizoram",
+   "Headcount_NFHS4": 30.45,
+   "Headcount_NFHS5": 21.63,
+   "dH": -8.82
+  },
+  {
+   "District": "Pashchimi Singhbhum",
+   "State": "Jharkhand",
+   "Headcount_NFHS4": 57.6,
+   "Headcount_NFHS5": 47.81,
+   "dH": -9.79
+  },
+  {
+   "District": "Panna",
+   "State": "Madhya Pradesh",
+   "Headcount_NFHS4": 42.63,
+   "Headcount_NFHS5": 32.43,
+   "dH": -10.2
+  }
+ ],
+ "worse": [
+  {
+   "District": "Papum Pare",
+   "State": "Arunachal Pradesh",
+   "dH": 0.91
+  },
+  {
+   "District": "Bijapur",
+   "State": "Chhattisgarh",
+   "dH": 8.52
+  },
+  {
+   "District": "Ambala",
+   "State": "Haryana",
+   "dH": 1.84
+  },
+  {
+   "District": "Yamunanagar",
+   "State": "Haryana",
+   "dH": 0.23
+  },
+  {
+   "District": "Hamirpur",
+   "State": "Himachal Pradesh",
+   "dH": 0.56
+  },
+  {
+   "District": "Kasaragod",
+   "State": "Kerala",
+   "dH": 0.76
+  },
+  {
+   "District": "Kozhikode",
+   "State": "Kerala",
+   "dH": 0.42
+  },
+  {
+   "District": "Palakkad",
+   "State": "Kerala",
+   "dH": 0.72
+  },
+  {
+   "District": "East Khasi Hills",
+   "State": "Meghalaya",
+   "dH": 0.71
+  },
+  {
+   "District": "West Khasi Hills",
+   "State": "Meghalaya",
+   "dH": 12.89
+  },
+  {
+   "District": "Bathinda",
+   "State": "Punjab",
+   "dH": 2.41
+  },
+  {
+   "District": "Faridkot",
+   "State": "Punjab",
+   "dH": 3.08
+  },
+  {
+   "District": "Jalandhar",
+   "State": "Punjab",
+   "dH": 0.32
+  },
+  {
+   "District": "Ludhiana",
+   "State": "Punjab",
+   "dH": 0.76
+  },
+  {
+   "District": "Rupnagar",
+   "State": "Punjab",
+   "dH": 0.87
+  },
+  {
+   "District": "Mangan",
+   "State": "Sikkim",
+   "dH": 0.7
+  },
+  {
+   "District": "Namchi",
+   "State": "Sikkim",
+   "dH": 0.16
+  },
+  {
+   "District": "Chennai",
+   "State": "Tamil Nadu",
+   "dH": 0.1
+  },
+  {
+   "District": "Dindigul",
+   "State": "Tamil Nadu",
+   "dH": 0.36
+  },
+  {
+   "District": "Central",
+   "State": "Delhi",
+   "dH": 0.04
+  },
+  {
+   "District": "New Delhi",
+   "State": "Delhi",
+   "dH": 0.67
+  },
+  {
+   "District": "North",
+   "State": "Delhi",
+   "dH": 3.85
+  },
+  {
+   "District": "South West",
+   "State": "Delhi",
+   "dH": 1.28
+  },
+  {
+   "District": "West",
+   "State": "Delhi",
+   "dH": 2.39
+  },
+  {
+   "District": "Mahe",
+   "State": "Puducherry",
+   "dH": 0.11
+  }
+ ],
+ "high_state_share": {
+  "Uttar Pradesh": 0.193,
+  "Bihar": 0.183,
+  "Madhya Pradesh": 0.147,
+  "Jharkhand": 0.138,
+  "Odisha": 0.073
+ },
+ "sens": {
+  "Main: H4,A4,H5,A5": {
+   "Sil": 0.395,
+   "ARI": 1.0
+  },
+  "H4,H5 only": {
+   "Sil": 0.559,
+   "ARI": 0.696
+  },
+  "H5,A5 only": {
+   "Sil": 0.431,
+   "ARI": 0.64
+  },
+  "H5 only": {
+   "Sil": 0.622,
+   "ARI": 0.589
+  },
+  "H5,A5,MPI5": {
+   "Sil": 0.467,
+   "ARI": 0.636
+  },
+  "H4,A4,H5,A5,dH": {
+   "Sil": 0.357,
+   "ARI": 0.752
+  }
+ },
+ "ext": {
+  "n": 701,
+  "sil": 0.4308522903575048,
+  "ari": 0.6368656653610034,
+  "agree": 0.8716323296354992,
+  "sizes": [
+   101,
+   314,
+   286
+  ],
+  "new_n": 70,
+  "new_sizes": [
+   8,
+   35,
+   27
+  ]
+ }
+}
