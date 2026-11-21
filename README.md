@@ -35,5 +35,4 @@ The report publishes the 12 indicators only at State level, so clusters describe
 change of poverty (headcount ratio and intensity), not indicator-specific deprivation.
 
 ## AI use
-## AI use
 Claude (Anthropic) was used to help write the data-extraction and analysis code and to draft the paper text. I ran the code, checked the extracted data against the NITI Aayog report, reviewed the results, and take full responsibility for the content.
